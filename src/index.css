@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: green;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.mj-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 600px;
+}
+
+h1 {
+  text-align: center;
+  color: #2a7a3b;
+  margin-bottom: 25px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.add-btn {
+  background: #60b66c;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.add-btn:hover {
+  background: #3e9b4a;
+}
+
+.subject-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.subject-table th, .subject-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.subject-table tr.fail td {
+  color: red;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.gpa-btn {
+  width: 100%;
+  background: #2a7a3b;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.gpa-btn:hover {
+  background: #1f5c2c;
+}
+
+.gpa-result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #60b66c;
+  font-weight: bold;
+}
